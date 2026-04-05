@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "me.jupiter.afk.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MovementMixin",
+		"PlayerMixin",
+		"SleepStatusMixin",
+		"TabListMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
